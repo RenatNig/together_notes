@@ -32,6 +32,7 @@ bld/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+__pycache__/
 # NUNIT
 *.VisualState.xml
 TestResult.xml
@@ -254,3 +255,4 @@ paket-files/
 *.sln.iml
 *.v3.ncrunchsolution
 *.v3.ncrunchproject
+__pycache__

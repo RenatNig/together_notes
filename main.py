@@ -16,5 +16,5 @@ app.add_middleware(
  
 @app.get("/")
 def read_root():
-    html_content = "{\"name\": \"Hello METANIT.COM!\"}"
-    return HTMLResponse(content=html_content)
+    result = "Это ответ от нашего API на Python!"
+    return {"data": result}
